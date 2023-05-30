@@ -1,2 +1,6 @@
 # Vivado project folder
 project/
+
+# Vivado temporary files
+vivado.log
+vivado.jou
