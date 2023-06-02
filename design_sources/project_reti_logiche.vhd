@@ -37,7 +37,7 @@ architecture behavioural of project_reti_logiche is
 
 begin
 
- o_mem_we <= '0';
+o_mem_we <= '0';
 
 -- Clock process
 process(i_clk, i_rst)
