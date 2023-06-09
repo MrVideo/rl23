@@ -1,3 +1,7 @@
+-- Progetto di Reti Logiche 2022/2023
+-- Professor Fabio Salice
+-- Riccardo Manfredonia (10667777) e Mario Merlo (10766311)
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -39,7 +43,7 @@ begin
 
 o_mem_we <= '0';
 
--- Clock process
+-- FSM Clock and reset process
 process(i_clk, i_rst)
 begin
     if i_rst = '1' then
@@ -51,7 +55,7 @@ begin
     end if;
 end process;
 
--- Next state process
+-- FSM next state process
 process(cur_state, i_start, i_rst)
 begin
     next_state <= cur_state;
@@ -80,7 +84,7 @@ begin
     end if;
 end process;
 
--- Current state process
+-- FSM current state process
 process(cur_state)
 begin
     case cur_state is
