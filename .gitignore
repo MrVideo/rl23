@@ -4,3 +4,6 @@ project/
 # Vivado temporary files
 vivado.log
 vivado.jou
+
+# File system
+.DS_Store
