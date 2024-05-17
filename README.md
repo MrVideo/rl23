@@ -6,5 +6,5 @@ This project was carried out by my colleague, [Riccardo Manfredonia](https://git
 
 The aim of the project was to create a small memory controller in VHDL to access some data and output it through four ports. The software used for this project was [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html).
 
-You can read more about it in the [report](REPORT.md) (written in Italian).
+You can read more about it in the [report](REPORT.md) (written in Italian). Since there are some formatting issues with the MarkDown file, I also provided a [PDF version](REPORT.pdf).
 
